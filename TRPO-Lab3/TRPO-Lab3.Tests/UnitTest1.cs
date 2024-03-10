@@ -1,3 +1,4 @@
+﻿using NUnit.Framework;
 using TRPO_Lab3.Lib;
 
 namespace TRPO_Lab3.Tests
@@ -10,7 +11,7 @@ namespace TRPO_Lab3.Tests
         }
 
         [Test]
-        public void ComputationalTest()
+        public void ComputationalTest()     //Вычислительный тест
         {
             double a = 4;
             double h = 2;
@@ -19,6 +20,15 @@ namespace TRPO_Lab3.Tests
 
             double expected = 10.6;
             Assert.AreEqual(expected, result, 0.1);
+        }
+
+        [Test]
+        public void BoundaryTest()          //Граничный тест
+        {
+            double a = 4;
+            double h = -2;
+
+            Assert.Throws<Exception>(() => FormulaLib.Pyramid_Reg4_Volume(a, h));
         }
     }
 }
