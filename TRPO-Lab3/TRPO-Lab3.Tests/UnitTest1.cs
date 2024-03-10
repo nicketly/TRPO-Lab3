@@ -1,3 +1,5 @@
+using TRPO_Lab3.Lib;
+
 namespace TRPO_Lab3.Tests
 {
     public class Tests
@@ -8,9 +10,15 @@ namespace TRPO_Lab3.Tests
         }
 
         [Test]
-        public void Test1()
+        public void ComputationalTest()
         {
-            Assert.Pass();
+            double a = 4;
+            double h = 2;
+
+            var result = FormulaLib.Pyramid_Reg4_Volume(a, h);
+
+            double expected = 10.6;
+            Assert.AreEqual(expected, result, 0.1);
         }
     }
 }
