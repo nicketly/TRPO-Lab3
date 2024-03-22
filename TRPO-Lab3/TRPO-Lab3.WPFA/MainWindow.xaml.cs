@@ -24,24 +24,8 @@ namespace TRPO_Lab3.WPFA
         public MainWindow()
         {
             InitializeComponent();
-
-            if (Height.Text == "")
-            {
-                Height.Text = "Height";
-            }
-
-            if (Length.Text == "")
-            {
-                Length.Text = "Length";
-            }
-
-            if (Height.Text != "" && Length.Text != "")
-            {
-                var vm = new Params();
-                DataContext = vm;
-            }
-            
+            var vm = new Params();
+            DataContext = vm;
         }
-
     }
 }

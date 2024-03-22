@@ -5,13 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TRPO_Lab3.WPFA"
         mc:Ignorable="d"
-        Title="MainWindow" Height="593" Width="1057" ResizeMode="NoResize">
-    <Window.Background>
-        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-            <GradientStop Color="#FF212323"/>
-            <GradientStop Color="#FF0AD2A0" Offset="1"/>
-        </LinearGradientBrush>
-    </Window.Background>
+        Title="MainWindow" Height="593" Width="1057" ResizeMode="NoResize" Background="#FF363636">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="144*"/>
