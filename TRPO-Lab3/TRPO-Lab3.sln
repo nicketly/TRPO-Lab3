@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.ConsoleApp", "TRPO-Lab3.ConsoleApp\TRPO-Lab3.ConsoleApp.csproj", "{221D2DE5-525C-4570-A3D8-BF5E8ADDC6DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.ConsoleApp", "TRPO-Lab3.ConsoleApp\TRPO-Lab3.ConsoleApp.csproj", "{221D2DE5-525C-4570-A3D8-BF5E8ADDC6DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Lib", "TRPO-Lab3.Lib\TRPO-Lab3.Lib.csproj", "{33761033-0B30-4973-8A00-0471073CEA9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.Lib", "TRPO-Lab3.Lib\TRPO-Lab3.Lib.csproj", "{33761033-0B30-4973-8A00-0471073CEA9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.Tests", "TRPO-Lab3.Tests\TRPO-Lab3.Tests.csproj", "{12D63DA0-E4BA-4C91-BFE0-944AD03A0CCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.Tests", "TRPO-Lab3.Tests\TRPO-Lab3.Tests.csproj", "{12D63DA0-E4BA-4C91-BFE0-944AD03A0CCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.WPFA", "TRPO-Lab3.WPFA\TRPO-Lab3.WPFA.csproj", "{D330EAD9-82CD-4AEE-99E2-613360D09656}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{12D63DA0-E4BA-4C91-BFE0-944AD03A0CCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12D63DA0-E4BA-4C91-BFE0-944AD03A0CCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12D63DA0-E4BA-4C91-BFE0-944AD03A0CCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D330EAD9-82CD-4AEE-99E2-613360D09656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D330EAD9-82CD-4AEE-99E2-613360D09656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D330EAD9-82CD-4AEE-99E2-613360D09656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D330EAD9-82CD-4AEE-99E2-613360D09656}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
