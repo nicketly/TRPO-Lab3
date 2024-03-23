@@ -30,7 +30,3 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
        path: TRPO-Lab3/TRPO-Lab3.ConsoleApp/bin/Debug
-    - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
