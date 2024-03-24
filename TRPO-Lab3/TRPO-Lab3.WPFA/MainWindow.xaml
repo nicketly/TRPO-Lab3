@@ -11,6 +11,8 @@
             <ColumnDefinition Width="144*"/>
             <ColumnDefinition Width="913*"/>
         </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="593" Width="1057" Margin="0,-5,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Source="/image.png"/>
+
         <Label x:Name="Header" Content="LAB 4 TRPO" HorizontalAlignment="Left" Margin="45,26,0,0" VerticalAlignment="Top" FontFamily="Montserrat ExtraBold" FontSize="48" Foreground="#FFCCCCCC" Grid.ColumnSpan="2"/>
         <Label x:Name="Header1" Content="REGULAR 4-ANGULAR PYRAMID" HorizontalAlignment="Left" Margin="48,84,0,0" VerticalAlignment="Top" FontFamily="Montserrat ExtraBold" Foreground="#FFCCCCCC" Grid.ColumnSpan="2"/>
         <Label x:Name="Header2" Content="VOLUME" HorizontalAlignment="Left" Margin="48,98,0,0" VerticalAlignment="Top" FontFamily="Montserrat ExtraBold" Foreground="#FF0AD2A0" FontSize="16" Background="#00000000"/>
@@ -20,7 +22,6 @@
         <Label x:Name="Label_Length" Content="Length" HorizontalAlignment="Left" Margin="48,445,0,0" VerticalAlignment="Top" FontFamily="Montserrat ExtraBold" Foreground="#FFCCCCCC" Grid.Column="1" Height="19" Width="171" FontSize="8"/>
         <Label x:Name="Label_Height" Content="Height" HorizontalAlignment="Left" Margin="48,466,0,0" VerticalAlignment="Top" FontFamily="Montserrat ExtraBold" Foreground="#FFCCCCCC" Grid.Column="1" Height="21" Width="171" FontSize="8"/>
         <Label x:Name="Label_Volume" Content="Volume" HorizontalAlignment="Left" Margin="48,510,0,0" VerticalAlignment="Top" FontFamily="Montserrat ExtraBold" Foreground="#FF0AD2A0" Grid.Column="1" Height="22" Width="171" FontSize="8"/>
-        <Image HorizontalAlignment="Left" Height="593" Width="1057" Margin="0,-5,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Source="/image.png"/>
 
     </Grid>
 </Window>
