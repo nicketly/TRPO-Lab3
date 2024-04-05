@@ -30,3 +30,11 @@ _ReSharper*/
 #Nuget packages folder
 packages/
 /TRPO-Lab3/TRPO-Lab3.WPFA/Снимок экрана 2024-03-23 122425.png
+
+*.lib
+*.dll
+
+*.cshtml
+*.css
+*.map
+*.js
