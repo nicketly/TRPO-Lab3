@@ -7,4 +7,8 @@
     <RootNamespace>TRPO_Lab3.WebApp</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TRPO-Lab3.Lib\TRPO-Lab3.Lib.csproj" />
+  </ItemGroup>
+
 </Project>
