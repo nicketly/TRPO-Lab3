@@ -11,7 +11,7 @@ namespace TRPO_Lab3.WebApp.Controllers
         {
             var volume = FormulaLib.Pyramid_Reg4_Volume(length, height);
             var vm = new CustomModel(length, height, volume);
-            return View(vm);
+            return View("Index.cshtml", vm);
         }
 
 
@@ -21,7 +21,7 @@ namespace TRPO_Lab3.WebApp.Controllers
         {
             var volume = FormulaLib.Pyramid_Reg4_Volume(length, height);
             var vm = new CustomModel(length, height, volume);
-            return View(vm);
+            return View("Index.cshtml", vm);
         }
     }
 }

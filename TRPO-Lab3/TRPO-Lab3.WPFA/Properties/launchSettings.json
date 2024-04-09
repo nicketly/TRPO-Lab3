@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "TRPO-Lab3.WPFA": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:31064;http://localhost:31066"
+    }
+  }
+}

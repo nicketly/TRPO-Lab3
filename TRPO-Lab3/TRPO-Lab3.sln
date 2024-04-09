@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.Tests", "TRPO-Lab
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO-Lab3.WPFA", "TRPO-Lab3.WPFA\TRPO-Lab3.WPFA.csproj", "{D330EAD9-82CD-4AEE-99E2-613360D09656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRPO-Lab3.WebApp", "TRPO-Lab3.WebApp\TRPO-Lab3.WebApp.csproj", "{C60D32B4-5783-462F-818D-9A9C23316B1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRPO_Lab3.WebApp", "TRPO_Lab3.WebApp\TRPO_Lab3.WebApp.csproj", "{3BB03BE6-4268-4401-BD8B-541DE72FD018}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{D330EAD9-82CD-4AEE-99E2-613360D09656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D330EAD9-82CD-4AEE-99E2-613360D09656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D330EAD9-82CD-4AEE-99E2-613360D09656}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C60D32B4-5783-462F-818D-9A9C23316B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C60D32B4-5783-462F-818D-9A9C23316B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C60D32B4-5783-462F-818D-9A9C23316B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C60D32B4-5783-462F-818D-9A9C23316B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB03BE6-4268-4401-BD8B-541DE72FD018}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB03BE6-4268-4401-BD8B-541DE72FD018}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB03BE6-4268-4401-BD8B-541DE72FD018}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB03BE6-4268-4401-BD8B-541DE72FD018}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
